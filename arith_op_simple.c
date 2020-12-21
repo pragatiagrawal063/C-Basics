@@ -14,5 +14,5 @@ int main()
     res = num1/num2;
     printf("\nDivision = %d", res);
     getch();
-    return (1);
+    return (0);
 }
