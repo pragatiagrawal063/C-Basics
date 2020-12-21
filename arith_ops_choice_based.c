@@ -4,10 +4,8 @@ int main()
 {
     float num1, num2;
     char ch;
-    printf("Enter First Number: ");
-    scanf("%f", &num1);
-    printf("Enter Second Number: ");
-    scanf("%f", &num2);
+    printf("Enter any two Number: ");
+    scanf("%f%f", &num1, &num2);
     printf("Enter the Operator (+, -, *, /): \n ");
     scanf(" %c", &ch);
     if(ch=='+') 
